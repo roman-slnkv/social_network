@@ -3,10 +3,9 @@ import s from "./Header.module.css";
 
 const Header = () => {
     return (
-        <header className={s.header}>
+        <header className={`px-9 ${s.header}`}>
             <div className="header__search flex items-center">
 
-                <img className="mr-5" alt="bober" src="https://www.visualpro360.it/wp-content/uploads/2016/03/DJI1.png" />
                 <label class="relative block">
                     <span class="absolute inset-y-0 left-0 flex items-center pl-2">
                         <svg class="h-5 w-5 fill-slate-300" viewBox="0 0 20 20">
@@ -18,11 +17,12 @@ const Header = () => {
 
             </div>
 
-            <div className="buttons">
-
-                <button className="p-1 mr-5 transition-all bg-slate-400 hover:bg-sky-700 px-5 py-2 text-sm leading-5 rounded-full font-semibold text-white ">Настройки</button>
-                <button className="p-1 mr-5 transition-all bg-sky-500 hover:bg-sky-700 px-5 py-2 text-sm leading-5 rounded-full font-semibold text-white ">Настройки</button>
-                <button className="p-1 transition-all bg-sky-500 hover:bg-sky-700 px-5 py-2 text-sm leading-5 rounded-full font-semibold text-white ">Настройки</button>
+            <div className="menu-right flex items-center">
+                
+                <div>
+                    <div className={`mr-2 ${s.avatar}`}></div>
+                    <span className="avatar-name">Name</span>
+                </div>
 
             </div>
 

@@ -3,11 +3,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 0;
-  
+    background-color: #0050B3;
+    
 }
 
 .header img {
     width: 60px;
     height: 60px;
 }
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: gray;
+} 

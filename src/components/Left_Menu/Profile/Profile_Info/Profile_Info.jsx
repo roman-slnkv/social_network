@@ -6,7 +6,7 @@ const ProfileInfo = () => {
 
         <div>
             <div>
-                <img alt="k" src="https://avatars.mds.yandex.net/get-zen_doc/3957666/pub_5fb385ea268198734de4bb7a_5fb38690268198734de5ece0/scale_1200" />
+                <img alt="k" src="https://get.pxhere.com/photo/black-and-white-white-dog-animal-pet-mammal-black-monochrome-bulldog-head-vertebrate-french-bulldog-guard-watchful-observing-monochrome-photography-dog-like-mammal-1081255.jpg" />
             </div>
             <div>
                 ava + discription
