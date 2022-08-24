@@ -16,5 +16,22 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: gray;
+    background-image: url(https://nadezhnaya-dzhinsa.ru/img/cms/banners/avatarm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 } 
+
+.avatar_name {
+    color: #fff;
+}
+
+.home {
+    color: #fff;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.create {
+    color: #fff;
+    border-right: 1px solid #000;
+}

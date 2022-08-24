@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import s from "./Header.module.css";
 
 const Header = () => {
@@ -17,11 +18,28 @@ const Header = () => {
 
             </div>
 
-            <div className="menu-right flex items-center">
-                
-                <div>
-                    <div className={`mr-2 ${s.avatar}`}></div>
-                    <span className="avatar-name">Name</span>
+            <div className="menu-right">
+
+                <div className="flex">
+                    <NavLink className="flex items-center mr-4" to="/profile">
+
+                        <div className={`mr-2 ${s.avatar}`}></div>
+                        <span className={s.avatar_name}>Name</span>
+
+                    </NavLink>
+
+                    <NavLink className="flex items-center" to="/home">
+
+                        <div className={`px-2 ${s.home}`}>Home</div>
+
+                    </NavLink>
+
+                    <NavLink className="flex items-center" to="/create">
+
+                        <div className={`px-2 ${s.create}`}>Create</div>
+
+                    </NavLink>
+
                 </div>
 
             </div>
