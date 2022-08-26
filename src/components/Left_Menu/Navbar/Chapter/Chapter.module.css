@@ -10,16 +10,11 @@
   .text {
     color: #000;
     font-size: 14px;
-    font-weight: 600;
     line-height: 22px;
   }
 
-  .active .text {
-    color: red;
-  }
-
-  .active{
-    color: red;
+  .active.text {
+    color: gold;
   }
 
   .news {
