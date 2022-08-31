@@ -6,7 +6,6 @@ import Svg from "./Chapter/Svg";
 const Navbar = (props) => {
   return (
     <nav className={s.nav}>
-
       <div>
         <NavLink to="/news-feed" className={navData => navData.isActive ? `${s.active} ${s.news}` : `${s.news} ${s.item}`}>
           <div className={s.svg}>
