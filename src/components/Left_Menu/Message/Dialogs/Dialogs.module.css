@@ -3,18 +3,10 @@
     grid-template-columns: 2fr 10fr;
 }
 
-.dialogs__items {
-
-}
-
 .dialogs__items .active {
-    color: gold;
+    color: red;
 }
 
-.dialog {
-
-}
-
-.message {
-
+.dialogs__items .active:hover {
+    color: green;
 }
